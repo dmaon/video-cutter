@@ -169,7 +169,7 @@ if ($op == "merge-videos" && count($_SESSION["mergeList"]) > 0) {
 
         <form method="post" enctype="multipart/form-data" class="mt-2">
           <div class="input-group">
-            <input type="file" class="form-control" id="select-video-file" name="select-video-file" aria-describedby="select-video-file" aria-label="Upload">
+            <input type="file" accept="video/mp4" class="form-control" id="select-video-file" name="select-video-file" aria-describedby="select-video-file" aria-label="Upload">
             <button class="btn btn-outline-secondary" type="submit" name="op" value="add-video" id="add-video-btn">Add video</button>
             <button class="btn btn-warning" type="submit" name="op" value="reset" id="add-video-btn">Reset</button>
           </div>
